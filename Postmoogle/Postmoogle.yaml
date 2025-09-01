@@ -2,9 +2,12 @@
 author: Mei
 punchline: Ever wanted to get notifications about game events on discord or other services ? Now you can !
 description: |-
-  This plugin allows you to send notifications for specific game events via discord or ntfy.sh
+    This plugin allows you to send notifications for specific game events via discord or ntfy.sh
 
-  Commands:
-  	/postmoogle - Open the main configuration window
+    Commands:
+      /postmoogle - Open the main configuration window
 
 repo_url: https://github.com/MeiHasCrashed/Postmoogle.git
+tags:
+    - notifications
+    - discord
