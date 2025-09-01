@@ -1,0 +1,10 @@
+﻿root = true
+
+[*]
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.cs]
+file_header_template = Copyright (c) 2025 MeiHasCrashed\nLicense: AGPL-3.0-or-later (see /License.md)

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Dalamud.NET.Sdk/13.1.0">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0-windows</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsPackable>false</IsPackable>
+        <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/MeiHasCrashed/Postmoogle</PackageProjectUrl>
+        <Description>Ever wanted to get notifications about game events on discord ? Now you can !</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="Postmoogle.yaml" />
+    </ItemGroup>
+
+</Project>
