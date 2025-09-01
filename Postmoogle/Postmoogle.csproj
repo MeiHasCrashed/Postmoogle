@@ -14,4 +14,9 @@
       <Content Include="Postmoogle.yaml" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="JetBrains.Annotations" Version="2025.2.1" />
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.8" />
+    </ItemGroup>
+
 </Project>

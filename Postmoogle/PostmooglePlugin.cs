@@ -1,25 +1,22 @@
 ﻿// Copyright (c) 2025 MeiHasCrashed
 // License: AGPL-3.0-or-later (see /License.md)
 
-using Dalamud.Plugin;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
 namespace Postmoogle;
 
-public class PostmooglePlugin : IDalamudPlugin
+public class PostmooglePlugin(ILogger<PostmooglePlugin> logger) : IHostedService
 {
-
-    public PostmooglePlugin()
+    public Task StartAsync(CancellationToken cancellationToken)
     {
-        
+        logger.LogInformation("Starting Postmoogle plugin");
+        return Task.CompletedTask;
     }
 
-    private void SetupContainer()
+    public Task StopAsync(CancellationToken cancellationToken)
     {
-        
-    }
-    
-    public void Dispose()
-    {
-        // TODO release managed resources here
+        logger.LogInformation("Stopping Postmoogle plugin");
+        return Task.CompletedTask;
     }
 }
