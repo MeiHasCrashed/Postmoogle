@@ -6,7 +6,7 @@ using Dalamud.Plugin.Services;
 using Microsoft.Extensions.Logging;
 using Serilog.Events;
 
-namespace Postmoogle.Utils.Logging;
+namespace Postmoogle.Core.Logging;
 
 public class DalamudLogger(string name, IPluginLog logger) : ILogger
 {

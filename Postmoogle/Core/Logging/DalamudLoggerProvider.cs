@@ -5,7 +5,7 @@ using System.Collections.Concurrent;
 using Dalamud.Plugin.Services;
 using Microsoft.Extensions.Logging;
 
-namespace Postmoogle.Utils.Logging;
+namespace Postmoogle.Core.Logging;
 
 [ProviderAlias("Dalamud")]
 public class DalamudLoggerProvider(IPluginLog logger) : ILoggerProvider
